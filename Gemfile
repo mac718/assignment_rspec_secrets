@@ -42,6 +42,11 @@ group :development, :test do
   gem 'factory_bot_rails'
 end
 
+group :test do
+  gem 'capybara'
+  gem 'launchy'
+end
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
